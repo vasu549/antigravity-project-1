@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FixMate - Reliable Home Repairs & Maintenance in Kadapa</title>
+    <meta name="description" content="FixMate connects homeowners with trusted local professionals for plumbing, electrical, carpentry, AC repair, painting, and maintenance in Kadapa, AP." />
+    <!-- Modern Google Font: Inter & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN for instant, zero-bloat high efficiency styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              fixnavy: {
+                50: '#f0f5fa',
+                100: '#e1ecf6',
+                500: '#1e3a5f',
+                800: '#0f2442',
+                900: '#0a192f',
+              },
+              fixorange: {
+                50: '#fff7ed',
+                100: '#ffedd5',
+                500: '#f97316',
+                600: '#ea580c',
+                700: '#c2410c',
+              }
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased selection:bg-orange-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
